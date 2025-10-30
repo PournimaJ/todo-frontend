@@ -1,2 +1,2 @@
 // src/config.js
-export const API_URL = "https://todo-backend-b645.onrender.com"; // match the import
+export const API_URL = import.meta.env.VITE_API_URL;
